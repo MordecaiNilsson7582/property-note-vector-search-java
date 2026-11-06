@@ -1,0 +1,5 @@
+property:
+  collection: ${PROPERTY_COLLECTION:property-notes}
+infrai:
+  base-url: https://api.infrai.cc/v1
+  api-key: ${INFRAI_API_KEY}

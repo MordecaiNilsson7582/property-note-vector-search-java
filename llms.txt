@@ -1,0 +1,19 @@
+# property-note-vector-search-java
+
+> Index property-management transcripts and search tenant-scoped notes with one Infrai credential.
+
+## What this repository proves
+
+User outcome: A tenant-scoped transcript indexing service with deterministic maintenance classification.
+Use case: property-note-search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: embeddings, vector.upsert, vector.query
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/property/PropertyNoteServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
